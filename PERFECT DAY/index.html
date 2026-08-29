@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="Yusra Fatima" content="The Perfect Day Quiz and Planner: SUNBEAM">
+  <title>What's your Perfect Day?</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+  <div class="cover">
+    <img src="Theperfectday.png" alt="The Perfect Day">
+    <img class="coverPhoto" src="sunset.webp">
+  </div>
+
+    <img src = "info.png" alt="Want to know what a perfect day would look like for you? Take our personality quiz to find out!
+Once the quiz is submitted , this site also helps you plan out your Perfect Day in real-life! 
+How awesome!">
+    <h3> 1.What is your favorite season?</h3>
+    <div class="option-group">
+      <div class="option">
+        <input type = "radio" name="q1" value="summer" id="q1-summer">
+        <label for="q1-summer">
+          <img src="summer.png" alt="Summer">
+          <span>Summer</span>
+      </label>
+      </div>
+
+      <div class="option">
+        <input type = "radio" name="q1" value="monsoon" id="q1-monsoon">
+        <label for="q1-monsoon">
+          <img src="monsoon.png" alt="Monsoon/Winter">
+          <span>Monsoon / Winter</span>
+        </label>
+      </div>
+    
+      <div class = "option">
+        <input type = "radio" name="q1" value="spring" id="q1-spring">
+        <label for="q1-spring">
+           <img src="spring.jpg" alt="spring">
+          <span>Spring</span>
+        </label>
+      </div>
+  
+      <div class="option">
+        <input type = "radio" name="q1" value="autumn" id="q1-autumn">
+        <label for="q1-autumn">
+          <img src="autumn.webp" alt="autumn">
+          <span>Autum</span>
+        </label>
+      </div> 
+    </div> 
+
+    <h3> 2.What is your favorite time of the day? </h3>
+    <div class = "option-group">  
+      <div class = "option"> 
+        <input type = "radio" name="q2" value="daytime" id="q2-daytime">
+        <label for="q2-daytime">
+          <img src="daytime.png" alt="daytime">
+          <span>daytime</span>
+        </label>
+      </div>
+
+      <div class="option">
+        <input type = "radio" name="q2" value="afternoon" id="q2-afternoon">
+        <label for="q2-afternoon">
+          <img src="afternoon.png" alt="Golden-Hour Afternoon">
+          <span>Golden-Hour Afternoon</span>
+        </label>
+      </div>
+
+      <div class="option">
+        <input type = "radio" name="q2" value="sunset" id="q2-sunset">
+        <label for="q2-sunset">
+          <img src="sunseticon.png" alt="sunset">
+          <span>Sunset</span>
+        </label>
+      </div> 
+  
+      <div class="option">
+        <input type = "radio" name="q2" value="night" id="q2-night">
+        <label for="q2-night">
+          <img src="night.png" alt="night">
+          <span>Night</span>
+        </label>
+      </div>
+    </div>
+
+    <h3> 3.Are you an.. </h3>
+    <div class="option-group">
+      <div class="option">
+        <input type = "radio" name="q3" value="introvert" id="q3-introvert">
+        <label for="q3-introvert">
+          <img src="introvert.jpg" alt="introvert">
+          <span>Introvert</span>
+        </label>
+      </div>
+  
+      <div class="option">
+        <input type = "radio" name="q3" value="ambivert" id="q3-ambivert">
+        <label for="q3-ambivert">
+          <img src="ambivert.png" alt="ambivert">
+          <span>Ambivert</span>
+      </label>
+      </div>
+
+      <div class="option"> 
+        <input type = "radio" name="q3" value="extrovert" id="q3-extrovert">
+        <label for="q3-extrovert">
+          <img src="extrovert.png" alt="extrovert">
+          <span>Extrovert</span>
+        </label>
+      </div>
+    </div>
+  
+    <h3> 4.Which hobby would you pick?</h3>
+    <div class="option-group">
+      <div class = "option">
+        <input type = "radio" name="q4" value="swimming" id="q4-swimming">
+        <label for="q4-swimming">
+          <img src="swimming.png" alt="Swimming">
+          <span>Swimming</span>
+        </label>
+      </div>
+      <div class="option">
+        <input type = "radio" name="q4" value="reading" id="q4-reading">
+        <label for="q4-reading">
+          <img src="reading.png" alt="Reading 📖 ">
+          <span>Reading </span>
+        </label>
+      </div>
+
+      <div class="option">
+        <input  type = "radio" name="q4" value="speaking" id="q4-speaking">
+        <label for="q4-speaking">
+          <img src="speech.png" alt="Public Speaking  🎤 ">
+          <span>Public Speaking  </span>
+        </label>
+      </div>
+      <div class="option"> 
+        <input type = "radio" name="q4" value="photography" id="q4-photography">
+        <label for="q4-photography">
+          <img src="camera.png" alt="Photography 📸 ">
+          <span>Photography </span>
+        </label>
+      </div>
+      <div class="option">
+        <input type = "radio" name="q4" value="hiking" id="q4-hiking">
+        <label for="q4-hiking">
+          <img src="hike.png" alt="Hiking ">
+          <span>Hiking </span>
+        </label>
+      </div>
+    </div>
+  
+    <h3> 5.What's your favourite music genre out of these? </h3>
+    <div class = "option-group">
+      <div class = "option">
+        <input type = "radio" name="q5" value="pop" id="q5-pop" onclick="document.getElementById('pop-audio').play()">
+        <label for="q5-pop">
+          <img src="summerpop.jpg" alt="Playing disc">
+          <span>Summer Pop</span>
+        </label>
+        <audio id="pop-audio" src="espresso_sabrinaa.mp3"></audio>
+      </div>
+      <div class="option">  
+        <input type = "radio" name="q5" value="indie" id="q5-indie" onclick="document.getElementById('indie-audio').play()">
+        <label for="q5-indie">
+          <img src="calmkpop.jpg" alt="Playing disc">
+          <span>Indie / kpop </span>
+        </label>
+        <audio id="indie-audio" src="still_with_you.mp3"></audio>
+      </div>
+
+      <div class="option">
+        <input type = "radio" name="q5" value="party" id="q5-party" onclick="document.getElementById('party-audio').play()">
+        <label for="q5-party">
+          <img src="party.jpg" alt = "Playing disc">
+          <span>Disco Party</span>
+        </label>
+        <audio id="party-audio" src="party_on_my_mind.mp3"></audio>
+      </div>
+      <div class="option">
+        <input type = "radio" name="q5" value="chill" id="q5-chill" onclick="document.getElementById('chill-audio').play()">
+        <label for="q5-chill">
+          <img src="chill.jpg" alt="Playing disc">
+          <span>Chill </span>
+        </label>
+        <audio id="chill-audio" src="brooklyn_baby.mp3"></audio>
+      </div> 
+    </div>
+
+    <h3>6. What's your energy level? </h3>
+    <input type="range" name="q6" min="1" max="4" step="1" value="2" id="q6-energy">
+    <div class="slider-labels">
+        <span>1 = Slow and sleepy</span>
+        <span>2 = Steady</span>
+        <span>3 = Loud and Social</span>
+        <span>4 = Life of the party </span>
+    </div>
+
+  
+  </br>
+
+  <div class="displayResult">
+    <button class="submit"> Submit!</button>
+  </div>
+  </br>
+  <script src="script.js"></script>
+</body>
+
+</html>

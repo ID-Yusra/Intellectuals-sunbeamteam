@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  text-align: center;
+  min-height: 100%;
+  width: 100%;
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 25px;
+  background:linear-gradient( to bottom ,#f4c2c2,#d9d5f4,  #b8e2f2)
+}
+
+.header {
+  font-family: 'Baloo 2', sans-serif;
+
+  display: flex;
+  justify-content: space-around;
+  color: #f05a5a;
+  font-size:45px;
+}
+
+.option img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.cover{
+  font-family:'Pacifico',cursive;
+  text-align: center; 
+  font-size:35px;
+}
+
+a {
+  color: #0f65ef;
+  font-weight: bold;
+}
+
+.coverPhoto {
+  width: 100%;
+}
+
+.displayResult{
+  text-align: center;
+  font-family: "Baloo 2", sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+  color: white;
+  background-color: #6daeff;
+  font-size: 40px;
+  border-radius: 10px;
+  border: none;
+  font-family: monospace;
+  padding: 20px;
+}
+
+.option-group {
+  display: grid;
+  grid-template-columns: repeat( 2 , 1fr);
+  gap: 15px;
+  margin: 15px auto;
+  max-width: 600px;
+}
+
+input[type ="range"]{
+  width: 70%;
+  height:10px;
+  border-radius: 5px;
+  background: linear-gradient(to right,#58b6f9,#7f6cff, #fb85d7);
+  -webkit-appearance: none;
+  accent-color:#fbfbfb;
+}
+
+input[type ="radio"]{
+  accent-color: #7f6cff;
+}
